@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.card {
+    height: 20vh;
+    width: 30vw;
+    border-radius: 10px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 12vw auto;
+    grid-template-rows: auto auto auto;
+}
+
+.card_img {
+    grid-row: 1/span3;
+    justify-self: center;
+    overflow: hidden;
+    margin-left: -3vw;
+
+}
+
+.card_content {
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2vh 0;
+    margin-left: -2vw;
+}
+
+.bottom {
+    display: flex;
+}
+
+.user_img {
+    height: 1.2em;
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+
+#user_img2 {
+    order: 2;
+    margin-left: -16.5vw;
+    position: relative;
+    left: -1.5vw;
+}
+
+.footer_text {
+    padding-left: 1.3vw;
+    padding-top: 0.5vh;
+}
+
+.html_img {
+    width: 10vw;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    color: gray;
+    font-weight: 900;
+    font-size: 2vh;
+}
